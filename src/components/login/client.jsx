@@ -25,7 +25,7 @@ export class Client extends React.Component {
     }
 
     handleSubmit(event) {
-        alert('Um nome foi enviado: ' + this.clients.name);
+        //alert('Um nome foi enviado: ' + this.clients.name);
         this.listClient = JSON.parse(window.localStorage.getItem('lista-de-clientes') || "[]");
         this.listClient.push(this.clients);
         window.localStorage.setItem('lista-de-clientes', JSON.stringify(this.listClient));

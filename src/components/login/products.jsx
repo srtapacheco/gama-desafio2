@@ -49,7 +49,7 @@ export class Products extends React.Component {
                     <form onSubmit={this.handleSubmit}>
                         <div className='content'>
                             <div className='image'>
-                                <img src={clientImg}/>
+                                <img src={clientImg} alt='Imagem decorativa'/>
                             </div>
                             <div className ='form'>
                                 <div className='form-group'>

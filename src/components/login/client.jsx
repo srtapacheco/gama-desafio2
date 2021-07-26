@@ -47,7 +47,7 @@ export class Client extends React.Component {
                     <form onSubmit={this.handleSubmit}>
                         <div className='content'>
                             <div className='image'>
-                                <img src={loginImg}/>
+                                <img src={loginImg} alt='Imagem decorativa'/>
                             </div>
                             <div className = 'form'>
                                 <div className='form-group'>

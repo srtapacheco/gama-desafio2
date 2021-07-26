@@ -24,7 +24,7 @@ export class Products extends React.Component {
     }
 
     handleSubmit(event) {
-        //alert('Um nome foi enviado: ' + this.product.title);
+        alert('Item adicionado! Verifique no final da pagina');
         this.listItem = JSON.parse(window.localStorage.getItem('lista-de-produtos') || "[]");
         this.listItem.push(this.product);
         window.localStorage.setItem('lista-de-produtos', JSON.stringify(this.listItem));
